@@ -1,0 +1,344 @@
+# Copyright (C) 2026 Butiá Labs
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pushwi 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pushwi\n"
+"Last-Translator: Butiá Labs\n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-07T02:06:02+00:00\n"
+"PO-Revision-Date: 2026-10-07 02:06+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: pushwi\n"
+
+#. Plugin Name of the plugin
+#: pushwi.php
+#: includes/class-settings.php:77
+#: includes/class-settings.php:78
+#: includes/class-settings.php:455
+msgid "Pushwi"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: pushwi.php
+msgid "https://pushwi.com"
+msgstr ""
+
+#. Description of the plugin
+#: pushwi.php
+msgid "Pushwi web push: installs the widget and sends posts as push notifications from the editor."
+msgstr "Web Push da Pushwi: instala o widget e envia posts como notificações push direto do editor."
+
+#. Author of the plugin
+#: pushwi.php
+msgid "Butiá Labs"
+msgstr ""
+
+#: includes/class-api.php:80
+msgid "The Pushwi secret API key is not configured."
+msgstr "A chave secreta da API da Pushwi não está configurada."
+
+#. translators: %s: error message from the HTTP layer.
+#: includes/class-api.php:105
+#, php-format
+msgid "Could not reach Pushwi: %s"
+msgstr "Não foi possível conectar à Pushwi: %s"
+
+#: includes/class-api.php:130
+msgid "Pushwi rejected the secret API key (401). Check the key in Settings → Pushwi."
+msgstr "A Pushwi recusou a chave secreta da API (401). Confira a chave em Configurações → Pushwi."
+
+#: includes/class-api.php:135
+msgid "Pushwi refused the request (403). Make sure you are using a secret key (sk_live_) for this site and that your plan allows it."
+msgstr "A Pushwi recusou a requisição (403). Confira se você está usando uma chave secreta (sk_live_) deste site e se o seu plano permite isso."
+
+#: includes/class-api.php:143
+msgid "Pushwi rejected the notification:"
+msgstr "A Pushwi recusou a notificação:"
+
+#: includes/class-api.php:145
+msgid "Too many requests to Pushwi. Wait a minute and try again."
+msgstr "Muitas requisições para a Pushwi. Aguarde um minuto e tente de novo."
+
+#. translators: %d: HTTP status code.
+#: includes/class-api.php:148
+#, php-format
+msgid "Unexpected response from Pushwi (HTTP %d)."
+msgstr "Resposta inesperada da Pushwi (HTTP %d)."
+
+#: includes/class-campaign.php:48
+msgid "Invalid Pushwi action."
+msgstr "Ação da Pushwi inválida."
+
+#: includes/class-campaign.php:52
+msgid "Pushwi is not configured. Add the public ID and secret API key in Settings → Pushwi."
+msgstr "A Pushwi não está configurada. Informe o ID público e a chave secreta da API em Configurações → Pushwi."
+
+#: includes/class-campaign.php:56
+msgid "This post is already being sent to Pushwi."
+msgstr "Este post já está sendo enviado para a Pushwi."
+
+#: includes/class-campaign.php:139
+msgid "The post has no categories or tags to target. Add some, or choose \"All subscribers\"."
+msgstr "O post não tem categorias nem tags para segmentar. Adicione alguma ou escolha \"Todos os inscritos\"."
+
+#: includes/class-metabox.php:48
+msgid "Pushwi notification"
+msgstr "Notificação Pushwi"
+
+#: includes/class-metabox.php:54
+msgid "Add your site public ID and secret API key to send posts as push notifications."
+msgstr "Informe o ID público do site e a chave secreta da API para enviar posts como notificações push."
+
+#: includes/class-metabox.php:57
+msgid "Open Pushwi settings"
+msgstr "Abrir configurações da Pushwi"
+
+#: includes/class-metabox.php:73
+msgid "When the post is published"
+msgstr "Quando o post for publicado"
+
+#: includes/class-metabox.php:84
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-metabox.php:87
+msgid "Post title"
+msgstr "Título do post"
+
+#: includes/class-metabox.php:91
+msgid "Message"
+msgstr "Mensagem"
+
+#: includes/class-metabox.php:93
+msgid "Post excerpt"
+msgstr "Resumo do post"
+
+#: includes/class-metabox.php:97
+msgid "Audience"
+msgstr "Público"
+
+#: includes/class-metabox.php:107
+msgid "Send now"
+msgstr "Enviar agora"
+
+#: includes/class-metabox.php:108
+msgid "Create draft"
+msgstr "Criar rascunho"
+
+#. translators: 1: campaign status label, 2: date and time.
+#: includes/class-metabox.php:132
+#, php-format
+msgid "%1$s on %2$s."
+msgstr "%1$s em %2$s."
+
+#. translators: %d: Pushwi campaign ID.
+#: includes/class-metabox.php:138
+#, php-format
+msgid "View campaign #%d"
+msgstr "Ver campanha #%d"
+
+#: includes/class-metabox.php:153
+msgid "Draft created in Pushwi"
+msgstr "Rascunho criado na Pushwi"
+
+#: includes/class-metabox.php:157
+msgid "Notification queued for sending"
+msgstr "Notificação na fila de envio"
+
+#: includes/class-metabox.php:159
+msgid "Notification sent"
+msgstr "Notificação enviada"
+
+#: includes/class-metabox.php:161
+msgid "Notification failed"
+msgstr "Falha no envio da notificação"
+
+#: includes/class-metabox.php:163
+msgid "Campaign created in Pushwi"
+msgstr "Campanha criada na Pushwi"
+
+#: includes/class-metabox.php:305
+msgid "You are not allowed to send this post."
+msgstr "Você não tem permissão para enviar este post."
+
+#: includes/class-metabox.php:309
+msgid "Publish the post before sending it."
+msgstr "Publique o post antes de enviá-lo."
+
+#: includes/class-metabox.php:325
+msgid "Draft created in Pushwi."
+msgstr "Rascunho criado na Pushwi."
+
+#: includes/class-metabox.php:326
+msgid "Notification queued for sending."
+msgstr "Notificação na fila de envio."
+
+#: includes/class-metabox.php:368
+msgid "A Pushwi campaign was already created for this post. Create another one?"
+msgstr "Já existe uma campanha da Pushwi para este post. Criar outra?"
+
+#: includes/class-metabox.php:369
+msgid "Send this post as a push notification now?"
+msgstr "Enviar este post como notificação push agora?"
+
+#: includes/class-metabox.php:370
+#: includes/class-metabox.php:387
+msgid "Pushwi notification queued for sending."
+msgstr "Notificação da Pushwi na fila de envio."
+
+#: includes/class-metabox.php:371
+#: includes/class-metabox.php:386
+msgid "Pushwi draft created."
+msgstr "Rascunho criado na Pushwi."
+
+#: includes/class-metabox.php:372
+#: includes/class-metabox.php:384
+msgid "Pushwi:"
+msgstr "Pushwi:"
+
+#: includes/class-metabox.php:373
+msgid "Could not contact the server. Try again."
+msgstr "Não foi possível falar com o servidor. Tente de novo."
+
+#: includes/class-segments.php:123
+msgid "Pushwi did not return a segment ID."
+msgstr "A Pushwi não devolveu o ID do segmento."
+
+#. translators: %s: comma-separated list of category and tag names.
+#: includes/class-segments.php:168
+#, php-format
+msgid "WordPress: %s"
+msgstr "WordPress: %s"
+
+#: includes/class-settings.php:94
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/class-settings.php:140
+msgid "Site installation"
+msgstr "Instalação no site"
+
+#: includes/class-settings.php:147
+msgid "Site public ID"
+msgstr "ID público do site"
+
+#: includes/class-settings.php:156
+#: includes/class-settings.php:335
+msgid "Additional data"
+msgstr "Dados adicionais"
+
+#: includes/class-settings.php:164
+msgid "Publishing from the editor"
+msgstr "Publicação pelo editor"
+
+#: includes/class-settings.php:171
+msgid "Secret API key"
+msgstr "Chave secreta da API"
+
+#: includes/class-settings.php:180
+msgid "Post types"
+msgstr "Tipos de post"
+
+#: includes/class-settings.php:188
+msgid "Default action for new posts"
+msgstr "Ação padrão para novos posts"
+
+#: includes/class-settings.php:217
+msgid "Invalid public ID. Copy the exact value shown in your Pushwi dashboard under Widget → Snippet (it starts with \"pub_\")."
+msgstr "ID público inválido. Copie o valor exato mostrado no painel da Pushwi em Widget → Snippet (começa com \"pub_\")."
+
+#: includes/class-settings.php:248
+msgid "Invalid secret API key. Create one in your Pushwi dashboard under Developer → API keys (it starts with \"sk_live_\")."
+msgstr "Chave secreta da API inválida. Crie uma no painel da Pushwi em Desenvolvedor → Chaves de API (começa com \"sk_live_\")."
+
+#: includes/class-settings.php:302
+msgid "Loads the Pushwi widget on every page and serves the required service worker at /pushwi-sw.js."
+msgstr "Carrega o widget da Pushwi em todas as páginas e serve o service worker obrigatório em /pushwi-sw.js."
+
+#: includes/class-settings.php:310
+msgid "Optional. With a secret API key, a Pushwi box appears in the post editor to send the post as a push campaign or save it as a draft in Pushwi."
+msgstr "Opcional. Com uma chave secreta da API, aparece uma caixa da Pushwi no editor de posts para enviar o post como campanha push ou salvá-lo como rascunho na Pushwi."
+
+#: includes/class-settings.php:324
+msgid "Find it in your Pushwi dashboard under Widget → Snippet. This value is public: it is already visible in your site HTML."
+msgstr "Fica no painel da Pushwi em Widget → Snippet. Este valor é público: ele já aparece no HTML do seu site."
+
+#: includes/class-settings.php:331
+msgid "Categories"
+msgstr "Categorias"
+
+#: includes/class-settings.php:332
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/class-settings.php:350
+msgid "Required to target campaigns at \"readers interested in this post's categories and tags\"."
+msgstr "Necessário para segmentar campanhas para \"leitores interessados nas categorias e tags do post\"."
+
+#: includes/class-settings.php:367
+msgid "Remove the saved key"
+msgstr "Remover a chave salva"
+
+#: includes/class-settings.php:373
+msgid "Create one in your Pushwi dashboard under Developer → API keys. It is stored in this site's database and only sent to api.pushwi.com. Leave blank to keep the current key."
+msgstr "Crie uma no painel da Pushwi em Desenvolvedor → Chaves de API. Ela fica no banco de dados deste site e só é enviada para api.pushwi.com. Deixe em branco para manter a chave atual."
+
+#: includes/class-settings.php:407
+msgid "Don't send"
+msgstr "Não enviar"
+
+#: includes/class-settings.php:408
+msgid "Send notification when published"
+msgstr "Enviar notificação ao publicar"
+
+#: includes/class-settings.php:409
+msgid "Create a Pushwi draft when published"
+msgstr "Criar rascunho na Pushwi ao publicar"
+
+#: includes/class-settings.php:419
+msgid "All subscribers"
+msgstr "Todos os inscritos"
+
+#: includes/class-settings.php:420
+msgid "Subscribers interested in the post's categories and tags"
+msgstr "Inscritos interessados nas categorias e tags do post"
+
+#: includes/class-settings.php:471
+msgid "Test connection"
+msgstr "Testar conexão"
+
+#: includes/class-settings.php:481
+msgid "You are not allowed to do this."
+msgstr "Você não tem permissão para fazer isso."
+
+#: includes/class-settings.php:512
+msgid "Connected to Pushwi. The secret API key is valid."
+msgstr "Conectado à Pushwi. A chave secreta da API é válida."
+
+#: includes/class-settings.php:520
+msgid "Pushwi connection failed:"
+msgstr "Falha na conexão com a Pushwi:"
+
+#: includes/class-settings.php:534
+#: includes/class-settings.php:550
+msgid "Warning:"
+msgstr "Atenção:"
+
+#: includes/class-settings.php:535
+msgid "your site uses \"Plain\" permalinks, which prevents Pushwi from serving the service worker (/pushwi-sw.js). The subscription widget will not work until this is changed."
+msgstr "seu site usa links permanentes \"Simples\", o que impede a Pushwi de servir o service worker (/pushwi-sw.js). O widget de inscrição não vai funcionar até isso ser alterado."
+
+#: includes/class-settings.php:537
+msgid "Choose another structure in Settings → Permalinks"
+msgstr "Escolha outra estrutura em Configurações → Links permanentes"
+
+#: includes/class-settings.php:551
+msgid "WordPress is installed in a subdirectory. Browsers require the service worker at the root of your domain, so copy the file below to your web server root:"
+msgstr "O WordPress está instalado num subdiretório. Os navegadores exigem o service worker na raiz do domínio, então copie o arquivo abaixo para a raiz do seu servidor web:"
