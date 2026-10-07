@@ -20,7 +20,7 @@ Requires a [Pushwi](https://pushwi.com) account.
 
 Filters: `pushwi_campaign_payload`, `pushwi_campaign_category`, `pushwi_segment_definition`, `pushwi_subscriber_tags`, `pushwi_tag_taxonomies`, `pushwi_sdk_url`, `pushwi_api_url`, `pushwi_dashboard_url`. Action: `pushwi_campaign_created`.
 
-Source: [github.com/butialabs/pushwi-press-plugin](https://github.com/butialabs/pushwi-press-plugin)
+Source: [github.com/butialabs/pushwi-wp](https://github.com/butialabs/pushwi-wp)
 
 == External services ==
 
