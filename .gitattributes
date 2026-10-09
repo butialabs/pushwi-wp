@@ -4,3 +4,6 @@
 /.gitattributes export-ignore
 /.gitignore export-ignore
 /README.md export-ignore
+/languages/*.po export-ignore
+/languages/*.mo export-ignore
+/languages/*.l10n.php export-ignore

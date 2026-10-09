@@ -5,3 +5,6 @@
 /.gitattributes
 /.gitignore
 /README.md
+/languages/*.po
+/languages/*.mo
+/languages/*.l10n.php

@@ -48,13 +48,6 @@ function pushwi_deactivate(): void
 }
 register_deactivation_hook(__FILE__, 'pushwi_deactivate');
 
-function pushwi_load_textdomain(): void
-{
-    // phpcs:ignore PluginCheck.CodeAnalysis.DiscouragedFunctions.load_plugin_textdomainFound -- bundled translations.
-    load_plugin_textdomain('pushwi', false, dirname(plugin_basename(__FILE__)).'/languages');
-}
-add_action('init', 'pushwi_load_textdomain');
-
 add_action('init', ['Pushwi_Service_Worker', 'register_rewrite_rule']);
 add_action('parse_request', ['Pushwi_Service_Worker', 'maybe_serve']);
 
